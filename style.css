@@ -1,6 +1,7 @@
 /* sezione banner*/
 html {
     background-color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
 }
 
 body {
@@ -13,12 +14,13 @@ body {
 
 section{
     background-color: rgb(60, 157, 248);
+    background-image: url('../img/pattern.png');
+    background-position-y: top;
+    background-attachment: scroll;
+    background-size: 480px;
     height:100px;
     height:120px;
-    background-image: url('../img/pattern.png');
-    background-position-y: top left;
-    background-attachment: fixed;
-    background-size: 480px;   
+    margin-bottom: -30px;
  }
 
  #logo{
@@ -29,16 +31,26 @@ section{
     margin-left: 10px;
  }
 
- h1 {
-    font-size: 42px;
- }
-
  /* body */
 
  main {
     margin-top: -10px;
     padding: 5px;
 }
+
+.author {
+    color:  rgb(85, 85, 85);
+    margin-bottom: -20px;
+}
+
+.date {
+    color:  rgb(85, 85, 85);
+}
+h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    margin-bottom: -20px;
+ }
 
 span {
     color:rgb(60, 157, 248);
@@ -48,8 +60,12 @@ figure {
     margin-left: 0px;
 }
 
+.caption  {
+    font-size: 12px;
+}
 ul {
     margin-left: -25px;
+    margin-bottom: 40px;
 }
 
 .row1 {
@@ -58,22 +74,30 @@ ul {
 }
 
 .row2 {
+    align-self: center;
+    vertical-align: middle;
     background-color: rgb(128, 215, 250);
 }
 
 .row3 {
+    align-self: center;
+    vertical-align: middle;
     background-color: rgb(255, 255, 255);
 }
 
 .row4 {
+    vertical-align: middle;
     background-color: rgb(128, 215, 250);
 }
-    .left {
+
+.left {
+    text-align: center;
     display: inline-block;
     width:20%;
 }
 
 .center {
+    text-align: center;
     display: inline-block;
     width:29%;
 }
@@ -82,6 +106,42 @@ ul {
     display: inline-block;
     width:50%;
 }
-table {
-    margin-bottom: 20px;
+.under-table {
+    margin-top: 20px;
+}
+
+/* footer */
+
+.computer1{
+    width: 250px;
+    height: 250px;
+    margin-bottom: -90px;
+    background-image: url('../img/monitor.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ 
+ .computer2{
+    width: 250px;
+    height: 250px;
+    background-image: url('../img/graph.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ 
+ .computer1 > h4{
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+ }
+
+ .computer2 > h4{
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+ }
+
+ footer {
+    margin-top: -10px;
+    padding: 5px;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
 }
