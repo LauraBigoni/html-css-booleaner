@@ -1,0 +1,23 @@
+/* sezione banner*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: rgb(60, 157, 248);
+    height:100px;
+    height:150px;
+    background-image: url('../img/pattern.png');
+    background-position-y: top;
+ }
+
+ #logo{
+    width: 15%;
+    margin: 55px 10px;
+    height: 45%;
+    margin-top: 75px;
+    margin-left: 10px;
+ }
+
+ /* body */
