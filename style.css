@@ -69,34 +69,42 @@ ul {
 }
 
 .row1 {
+    vertical-align: 0px !important;
     color: rgb(255, 255, 255);
     background-color: rgb(42, 170, 255);
 }
 
 .row2 {
-    align-self: center;
-    vertical-align: middle;
     background-color: rgb(128, 215, 250);
 }
 
 .row3 {
-    align-self: center;
-    vertical-align: middle;
     background-color: rgb(255, 255, 255);
 }
 
 .row4 {
-    vertical-align: middle;
     background-color: rgb(128, 215, 250);
 }
 
 .left {
-    text-align: center;
     display: inline-block;
     width:20%;
 }
 
 .center {
+    text-align: center;
+    display: inline-block;
+    width:29%;
+}
+
+.left2 {
+    vertical-align: 35px;
+    display: inline-block;
+    width:20%;
+}
+
+.center2 {
+    vertical-align: 35px;
     text-align: center;
     display: inline-block;
     width:29%;
@@ -124,6 +132,7 @@ ul {
  .computer2{
     width: 250px;
     height: 250px;
+    margin-bottom: -50px;
     background-image: url('../img/graph.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -136,7 +145,6 @@ ul {
 
  .computer2 > h4{
     color: rgb(255, 255, 255);
-    padding: 10px 10px;
  }
 
  footer {
