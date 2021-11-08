@@ -22,3 +22,19 @@ section{
 
  /* body */
 
+ main {
+    margin-top: -10px;
+    padding: 5px;
+}
+
+span {
+    color:rgb(60, 157, 248);
+}
+
+figure {
+    margin-left: 0px;
+}
+
+ul {
+    margin-left: -25px;
+}
