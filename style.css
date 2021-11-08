@@ -2,6 +2,8 @@
 body {
     margin: 0;
     padding: 0;
+    width: 1080px;
+    margin: 0 auto;
 }
 
 section{
@@ -37,4 +39,35 @@ figure {
 
 ul {
     margin-left: -25px;
+}
+
+.row1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(42, 170, 255);
+}
+
+.row2 {
+    background-color: rgb(128, 215, 250);
+}
+
+.row3 {
+    background-color: rgb(255, 255, 255);
+}
+
+.row4 {
+    background-color: rgb(128, 215, 250);
+}
+    .left {
+    display: inline-block;
+    width:20%;
+}
+
+.center {
+    display: inline-block;
+    width:29%;
+}
+
+.right {
+    display: inline-block;
+    width:50%;
 }
