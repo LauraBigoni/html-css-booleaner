@@ -15,17 +15,17 @@
 </head>
 <body>
 <!-- logo -->
-    <header>
-        <section>
-            <img id="logo" src="img/logo.svg" alt="Logo Booleaner" title="Logo Booleaner">
-        </section>
+    <header id="main-header">
+        <div class="container">
+            <img id="logo" src="img/logo.svg" alt="Logo Booleaner">
+        </div>
     </header>
- <!-- titolo articolo -->
-    <main>
-        <article>
-            <h1><b>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</b></h1>
-            <p class="author"><b>Scritto da <span>The Booleaner</span></b></p>
-            <h5 class="date">il 10/10/2020</h5>
+<!-- titolo articolo -->
+    <main class="container">
+        <article class="heading">
+            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+            <p class="author text-grey"><b>Scritto da <span class="text-lightblue">The Booleaner</span></b></p>
+            <time datetime="2020/10/10" class="text-grey">il 10/10/2020</time>
         </article>
 <!-- immagini e didascalie -->
         <figure>
@@ -36,7 +36,8 @@
         </figure>
 <!-- articolo -->
         <article>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae architecto perspiciatis ducimus nihil. In eaque necessitatibus, nostrum voluptates facilis veritatis, voluptatum dolores adipisci obcaecati, quos autem <mark>provident officiis aliquid laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit.</mark> Dolorum nulla animi consectetur veritatis quo id impedit quia possimus esse. Sint illum perspiciatis impedit provident, et debitis quas cum eos natus.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae architecto perspiciatis ducimus nihil. In eaque necessitatibus, nostrum voluptates facilis veritatis, voluptatum dolores adipisci obcaecati,<mark> quos autem provident officiis aliquid laudantium? Lorem ipsum dolor sit amet consectetur</mark> adipisicing elit. Dolorum nulla animi consectetur veritatis quo id impedit quia possimus esse. Sint illum perspiciatis impedit provident, et debitis quaas cum eos natus. 
+        
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, error praesentium. Quod eos consequatur veniam quis in consequuntur nisi.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quae. Quaerat temporibus earum quod velit minima.</li>
@@ -44,65 +45,45 @@
             </ul>
         </article>
 <!-- tabella -->
-            <div class="row1">
-            <div class="left">
-                Lorem ipsum dolor
-            </div>
-            <div class="center">
-                Lorem ipsum dolor
-            </div>
-            <div class="right">
-                Lorem ipsum dolor
-            </div>
-            </div>
-            <div class="row2">
-            <div class="left2">
-                Lorem ipsum dolor
-            </div>
-            <div class="center2">
-                Lorem ipsum dolor
-            </div>
-            <div class="right">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam corporis repellat inventore voluptatibus recusandae, consectetur dolor? Itaque adipisci quos sint molestias ex, perferendis nostrum architecto assumenda enim illo at.
-            </div>
-            </div>
-            <div class="row3">
-            <div class="left2">
-                Lorem ipsum dolor
-            </div>
-            <div class="center2">
-                Lorem ipsum dolor
-            </div>
-            <div class="right">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam corporis repellat inventore voluptatibus recusandae, consectetur dolor? Itaque adipisci quos sint molestias ex, perferendis nostrum architecto assumenda enim illo at.
-            </div>
-            </div>
-            <div class="row4">
-            <div class="left2">
-                Lorem ipsum dolor
-            </div>
-            <div class="center2">
-                Lorem ipsum dolor
-            </div>
-            <div class="right">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam corporis repellat inventore voluptatibus recusandae, consectetur dolor? Itaque adipisci quos sint molestias ex, perferendis nostrum architecto assumenda enim illo at.
-            </div>
-            </div>
-        <article class="under-table">
+        <table>
+            <thead>
+               <tr class="text-white bgc-blue">
+                    <th>Lorem ipsum dolor</th>
+                    <th>Lorem ipsum dolor</th>
+                    <th>Lorem ipsum dolor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td class="w50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam corporis repellat inventore voluptatibus recusandae, consectetur dolor? Itaque adipisci quos sint molestias ex, perferendis nostrum architecto assumenda enim illo at.</td>
+                </tr>
+                <tr class="even-row">
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td class="w50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam corporis repellat inventore voluptatibus recusandae, consectetur dolor? Itaque adipisci quos sint molestias ex, perferendis nostrum architecto assumenda enim illo at.</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor</td>
+                    <td>Lorem ipsum dolor</td>
+                    <td class="w50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quam corporis repellat inventore voluptatibus recusandae, consectetur dolor? Itaque adipisci quos sint molestias ex, perferendis nostrum architecto assumenda enim illo at.</td>
+                </tr>
+            </tbody>
+        </table>
+        <article>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, aliquid? Odio reprehenderit dignissimos asperiores qui soluta repellendus eum suscipit, quasi dolor non laudantium. Id eaque esse voluptatem fugiat adipisci officiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt recusandae, explicabo veritatis nulla quisquam doloribus aliquid,<mark> minus fuga consequuntur natus ducimus iste exercitationem veniam</mark>, meius odit voluptates eaque magnam ea!
         </article>
     </main>
 <!-- footer e foto -->
-    <footer>
-        <h4>Potrebbero interessarti</h4>
-        <div class="computer"> 
-        <div class="computer1"> 
-           <h4>Lorem ipsum dolor</h4>
+    <aside class="container">
+        <h3 class="text-grey">Potrebbero interessarti</h3>
+        <div class="related-article"> 
+            <h4 class="text-white">Lorem ipsum dolor</h4>
         </div>
-        <div class="computer2"> 
-           <h4>Lorem ipsum dolor</h4>
+        <div class="related-article2"> 
+           <h4 class="text-white">Lorem ipsum dolor</h4>
         </div>
-        </div>
-    </footer>
+    </aside>
 </body>
 </html>
